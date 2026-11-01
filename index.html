@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +14,7 @@
 
   <title>Tribute.A.I. - Best Tribute Website Ever</title>
 
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -27,10 +29,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/main.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
+          <a class="nav-link" href="pages/about.html">About</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -39,7 +41,7 @@
             Topics
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/continue.html">Captain Vikram Batra</a>
+            <a class="dropdown-item" href="pages/vikram-batra.html">Captain Vikram Batra</a>
             <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Bhagat_Singh">Bhagat Singh</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Support</a>
@@ -47,7 +49,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact.html">Contact Us</a>
+          <a class="nav-link" href="pages/contact.html">Contact Us</a>
         </li>
 
 
@@ -77,7 +79,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form id="loginForm">
             <div class="form-group">
               <label for="exampleInputEmail1" id="a">Email address</label>
               <input type="email"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
@@ -119,8 +121,8 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
-            <div class="form-group" id="signupForm">
+          <form id="signupForm">
+            <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -134,7 +136,7 @@
               <input type="password" class="form-control" id="cexampleInputPassword1" required>
             </div>
 
-            <button type="submit" class="btn btn-primary new-btnnnn">Creat Account</button>
+            <button type="submit" class="btn btn-primary new-btnnnn">Create Account</button>
           </form>
         </div>
         <!-- <div class="modal-footer">
@@ -208,10 +210,10 @@
             <div class="mb-1 text-muted">Nov 12</div>
             <p class="card-text mb-auto">Captain Vikram Batra was an extraordinary Indian Army officer whose heroism and
               sacrifice during the Kargil War in 1999 immortalized him as a national hero. </p>
-            <a href="/continue.html" class="stretched-link">Continue reading</a>
+            <a href="pages/vikram-batra.html" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="200" height="250" src="captain vikram batyra card.jpg" alt="">
+            <img class="bd-placeholder-img" width="200" height="250" src="static/images/captain vikram batyra card.jpg" alt="">
           </div>
         </div>
       </div>
@@ -247,7 +249,7 @@
             <a href="https://en.wikipedia.org/wiki/Ratan_Tata" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="200" height="250" src="ratan tata.jpg" alt="">
+            <img class="bd-placeholder-img" width="200" height="250" src="static/images/ratan tata.jpg" alt="">
           </div>
         </div>
       </div>
@@ -263,7 +265,7 @@
             <a href="https://en.wikipedia.org/wiki/Lata_Mangeshkar" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="200" height="250" src="lata mangeskar.jpg" alt="">
+            <img class="bd-placeholder-img" width="200" height="250" src="static/images/lata mangeskar.jpg" alt="">
 
           </div>
         </div>
@@ -289,5 +291,5 @@
 
  
 </body>
-<script src="script.js"></script>
+<script src="static/js/script.js"></script>
 </html>
